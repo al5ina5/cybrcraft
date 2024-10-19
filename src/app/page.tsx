@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: 'url("/img/bg.png")' }}>
+    <div className="min-h-screen p-6 w-full bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: 'url("/img/bg.png")' }}>
 
       <div className="absolute inset-0 bg-pink-500/20 backdrop-blur" />
 
