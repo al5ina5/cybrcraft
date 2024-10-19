@@ -41,7 +41,7 @@ const PlayerList: React.FC = () => {
     }
 
     return (
-        <div className='flex gap-2'>
+        <div className='flex gap-2 flex-wrap'>
             {players.map(player => (
                 <div key={player.name_clean} className='flex items-center gap-2 emboss bg-gray-300 p-1 px-2'>
                     <img className='w-6' src={`https://api.mineatar.io/head/${player.uuid}`} alt={`${player.name}'s skin`} />
