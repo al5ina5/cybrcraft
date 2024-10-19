@@ -20,6 +20,7 @@ const PlayerList: React.FC = () => {
                 const playerList = response.data?.players?.list || [];
                 setPlayers(playerList);
             } catch (err) {
+                console.log(err)
                 setError('Failed to fetch player data');
             } finally {
                 setLoading(false);
