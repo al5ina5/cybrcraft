@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className="text-2xl flex flex-col">
           <a className="bllock underline hover:no-underline" href="https://map.cybrcraft.xyz/" target="_blank">{'>'} Open Map</a>
-          <a className="underline hover:no-underline" href="https://map.cybrcraft.xyz/" target="_blank">{'>'} Join Discord</a>
+          <a className="underline hover:no-underline" href="/discord" target="_blank">{'>'} Join Discord</a>
         </div>
       </div>
     </div>
