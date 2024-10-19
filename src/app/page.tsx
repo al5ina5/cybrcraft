@@ -9,7 +9,7 @@ export default function Home() {
 
         <div className="p-2">
           <p className="text-4xl font-extrabold">CYBRCRAFT</p>
-          <p className="text-xl">Aliqua pariatur cillum id et ad ex ipsum reprehenderit aliquip occaecat.</p>
+          <p className="text-xl">A developing Creative Minecraft community.</p>
         </div>
 
         <div className="text-2xl bg-black text-white text-center p-2">
