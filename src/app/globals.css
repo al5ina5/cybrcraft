@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  height: 100%;
+  /* @apply min-h-screen; */
+}
+
 .font-pixel {
   font-family: "VT323", monospace;
   font-weight: 400;

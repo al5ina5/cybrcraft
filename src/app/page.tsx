@@ -16,8 +16,9 @@ export default function Home() {
           <p>IP: play.cybrcraft.xyz</p>
         </div>
 
-        <div className="text-2xl">
-          <a href="/discord" target="_blank" className="opacity-75 hover:opacity-100"><i className="fab fa-discord"></i></a>
+        <div className="text-2xl flex flex-col">
+          <a className="bllock underline hover:no-underline" href="https://map.cybrcraft.xyz/" target="_blank">{'>'} Open Map</a>
+          <a className="underline hover:no-underline" href="https://map.cybrcraft.xyz/" target="_blank">{'>'} Join Discord</a>
         </div>
       </div>
     </div>
