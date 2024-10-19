@@ -1,12 +1,13 @@
+import PlayerList from "@/components/players";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-6 w-full bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: 'url("/img/bg.jpg")' }}>
+    <div className="min-h-screen p-6 w-full bg-center bg-cover flex flex-col gap-6 items-center justify-center" style={{ backgroundImage: 'url("/img/bg.jpg")' }}>
 
       <div className="absolute inset-0 bg-pink-500/20 backdrop-blur" />
 
-      <div className="bg-gray-300 emboss p-1 relative z-20">
-        <div className="p-6 font-mono space-y-4  bg-white deboss max-w-md w-full">
+      <div className="bg-gray-300 emboss p-1 relative z-20 max-w-md w-full">
+        <div className="p-6 font-mono space-y-4  bg-white deboss">
           <div className="p-2">
             <p className="text-4xl font-extrabold">CYBRCRAFT</p>
             <p className="text-2xl">A developing Creative Minecraft community.</p>
@@ -19,7 +20,15 @@ export default function Home() {
             <a className="underline hover:no-underline" href="/discord" target="_blank">{'>'} Join Discord</a>
           </div>
         </div>
-      </div>s
-    </div>
+      </div>
+      <div className="bg-gray-300 emboss p-1 relative z-20 max-w-md w-full">
+        <div>
+          <p>Online Players</p>
+        </div>
+        <div className="p-2 font-mono space-y-4  bg-white deboss">
+          <PlayerList />
+        </div>
+      </div>
+    </div >
   );
 }
