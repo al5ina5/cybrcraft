@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 interface Player {
+    name_clean: string;
     name: string;
 }
 
