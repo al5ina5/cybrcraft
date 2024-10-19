@@ -6,6 +6,7 @@ import axios from 'axios';
 
 interface Player {
     name_clean: string;
+    uuid: string;
     name: string;
 }
 
